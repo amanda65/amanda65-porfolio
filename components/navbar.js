@@ -2,17 +2,17 @@ import Logo from './logo'
 import NextLink from 'next/link'
 import {
   Container,
+  Button,
+  Icon,
   Box,
   Link,
   Stack,
   Heading,
   Flex,
-  Menu,
-  MenuItem,
-  MenuList,
   useColorModeValue
 } from '@chakra-ui/react'
 import ThemeToggleButton from './theme-toggle-button.js'
+import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 
 const LinkItem = ({ href, path, children }) => {
   const active = path === href
@@ -68,35 +68,25 @@ const Navbar = props => {
             Projects
           </LinkItem>
 
-          <LinkItem href="/LinkedIn" path={path}>
-            LinkedIn
+          <LinkItem
+            href="https://www.linkedin.com/in/amanda-nguyen-176999217/"
+            path={path}
+          >
+            <Button variant="ghost" leftIcon={<Icon as={IoLogoLinkedin} />}>
+              LinkedIn
+            </Button>
           </LinkItem>
 
-          <LinkItem href="/SourceCode" path={path}>
-            Source Code
+          <LinkItem href="https://github.com/amanda65" path={path}>
+            <Button variant="ghost" leftIcon={<Icon as={IoLogoGithub} />}>
+              GitHub
+            </Button>
           </LinkItem>
         </Stack>
 
         <Box flex={1} align="right">
           <ThemeToggleButton />
-          <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
-            <Menu>
-              <MenuList>
-                <MenuItem as={NextLink} href="/">
-                  About
-                </MenuItem>
-                <MenuItem as={NextLink} href="/projects">
-                  Projects
-                </MenuItem>
-                <MenuItem as={NextLink} href="/LinkedIn">
-                  LinkedIn
-                </MenuItem>
-                <MenuItem as={NextLink} href="/SourceCode">
-                  Source Code
-                </MenuItem>
-              </MenuList>
-            </Menu>
-          </Box>
+          <Box ml={2} display={{ base: 'inline-block', md: 'none' }}></Box>
         </Box>
       </Container>
     </Box>
