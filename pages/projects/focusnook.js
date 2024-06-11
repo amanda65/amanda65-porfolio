@@ -17,7 +17,7 @@ const Project = () => {
           />
         </Box>
         <Title>
-          FocusNook <Badge>2023</Badge>
+          FocusNook <Badge>2024</Badge>
         </Title>
         <P>
           FocusNook is a web service application designed to boost productivity
