@@ -31,7 +31,7 @@ const Project = () => {
         <P>
           BloomMoods is an emotional well-being mobile app that combines
           self-reflection with nurturing virtual plants. Users log daily moods,
-          contributing to their chosen plant's growth. With features like a Mood
+          contributing to their chosen plant&apos;s growth. With features like a Mood
           Journaling, Emotional Insights Reports, and User Account Management,
           users track their emotional journey and personalize their experience.
           With plants like Tranquil Tulip and Serenity Sunflower, users witness
@@ -69,7 +69,7 @@ const Project = () => {
             <br />
             <br />
             On sign-up, users choose a plant to grow. Each daily log contributes
-            to the plant's health. The home screen displays the plant with a
+            to the plant&apos;s health. The home screen displays the plant with a
             growth level bar indicating progress from 0 to 100%. The growth bar
             increases by a set amount for each daily log, encouraging consistent
             engagement.
@@ -79,14 +79,14 @@ const Project = () => {
             <br />
             <br />
             A calendar view enables users to review past journal entries and
-            mood selections. Each day on the calendar reflects the user's mood
+            mood selections. Each day on the calendar reflects the user&apos;s mood
             through color coding, allowing for easy retrospection.
             <br />
             <br />
             Feature 4: Emotional Insights Report
             <br />
             <br />
-            A weekly report provides a visual breakdown of the user's logged
+            A weekly report provides a visual breakdown of the user&apos;s logged
             emotions via a pie chart, offering insights into emotional patterns.
             Additional stats may include the most common emotion, total days
             logged, and streaks.

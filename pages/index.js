@@ -59,7 +59,7 @@ const Page = () => {
           </Heading>
           <Paragraph>
             Based in Seattle, I graduated from University of Washington with a
-            Bachelor's in Computer Science. As a full-stack developer, I am
+            Bachelor&apos;s in Computer Science. As a full-stack developer, I am
             passionate about problem-solving and working with data.
           </Paragraph>
           <Box align="center" my={4}>
@@ -89,7 +89,7 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>2024</BioYear>
-            Completed Bachelor's program majoring in Computer Science from
+            Completed Bachelor&apos;s program majoring in Computer Science from
             University of Washington in June.
           </BioSection>
         </Section>
