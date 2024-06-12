@@ -59,8 +59,11 @@ const Page = () => {
           </Heading>
           <Paragraph>
             Based in Seattle, I graduated from University of Washington with a
-            Bachelor&apos;s in Computer Science. As a full-stack developer, I am
-            passionate about problem-solving and working with data.
+            Bachelor&apos;s in Computer Science. I have a deep love for
+            problem-solving and enjoy using my creativity to design and build
+            innovative solutions. When I&apos;m not coding, you can find me exploring
+            new technologies or indulging in creative projects. I&apos;m excited to
+            connect with like-minded professionals and take on new challenges!
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/projects">
